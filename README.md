@@ -17,9 +17,9 @@ A Transmission torrent-add hook to filter unwanted/malicious torrents and blockl
   - [Radarr](https://radarr.video/)
   - [Lidarr](https://lidarr.audio/)
   - [Readarr](https://readarr.com/)
-- **'Category'** must be set in the download client configuration of each Arr app, case sensitive (Adjust 'FILTER_CATEGORIES' variable as required)
-  - Example: Sonarr DL Client config Category = **'Sonarr'**
-  - 'FILTER_CATEGORIES' essentially sets which arr apps to watch for torrents from, and what the downloads completed folder should be. If you don't want one filtered, remove it from the variable or change the category in the Arr app so it no longer lines up.
+- **'Category'** must be set in the download client configuration of each Arr app, case sensitive (Adjust the 'xxxARR_CAT' variables as required)
+  - Example: Sonarr DL Client config Category = **'Sonarr'**, so set 'SONARR_CAT' to 'Sonarr'
+  - 'FILTER_CATEGORIES' essentially sets which arr apps to watch for torrents from. If you don't want one filtered, remove it from the variable.
 
 ## ⚙️ Setup
 
