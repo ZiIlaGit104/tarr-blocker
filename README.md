@@ -90,42 +90,41 @@ When a torrent has no valid media files:
 
 Filtering log example:
                 
-    [2025-09-05 15:42:36] --- Torrent Filter Script Triggered ---
-    Detected torrent ID: 2
-    Waiting for file list / metadata... files detected: 0
-    File list ready with 1 file(s).
-    Torrent Name: Some.Show.S27E04.1080p.x265-ELiTE
-    Torrent Hash: ad4d9426545b8a84521676517c37a17f2a7ab07b
-    Download location:   /downloads/complete/Sonarr
-    Raw folder name: Sonarr
-    Inferred category: Sonarr
-    Filtering enabled for category: Sonarr
-    Raw file list:
-      0:   0% Normal   Yes 872.3 MB   Some.Show.S27E04.1080p.x265-ELiTE/Some.Show.S27E04.1080p.x265-ELiTE.iso
-    Checking file index=0 name='some.show.s27e04.1080p.x265-elite/some.show.s27e04.1080p.x265-elite.iso'
-     -> Deselected irrelevant file: some.show.s27e04.1080p.x265-elite/some.show.s27e04.1080p.x265-elite.iso
-    Result: Torrent 'Some.Show.S27E04.1080p.x265-ELiTE' rejected (no valid media files found)
+    [2025-10-12 00:43:06] --- Torrent Filter Script Triggered ---
+    Torrent ID 15: > Locked for processing.
+    Torrent ID 15: > Waiting for file list / metadata to become available...
+    Torrent ID 15: > File list ready with 1 file(s).
+    Torrent ID 15: > Torrent Name: Some.Show.S27E06.1080p.x265-ELiTE.scr
+    Torrent ID 15: > Torrent Hash: 248450dc486b67b0f51e1027b667034cb60ca7b8
+    Torrent ID 15: > Download location:   /downloads/complete/Sonarr
+    Torrent ID 15: > Raw folder name: Sonarr
+    Torrent ID 15: > Inferred category: Sonarr
+    Torrent ID 15: > Filtering enabled for category: Sonarr
+    Torrent ID 15: > Raw file list:
+      0:  21% Normal   Yes 1.27 GB    Some.Show.S27E06.1080p.x265-ELiTE.scr
+    Torrent ID 15: > Checking file index=0 name='some.show.s27e06.1080p.x265-elite.scr'
+    Torrent ID 15: >  -> Deselected irrelevant file: some.show.s27e06.1080p.x265-elite.scr
+    Torrent ID 15: > Result: Torrent 'Some.Show.S27E06.1080p.x265-ELiTE.scr' rejected (no valid media files found)
     localhost:9091/transmission/rpc/ responded: success
-     -> Sent to Sonarr blocklist (queue id 787476292)
-    [2025-09-05 15:42:41] --- Torrent Filter Script Finished ---
-    
-    [2025-09-05 15:59:57] --- Torrent Filter Script Triggered ---
-    Detected torrent ID: 3
-    Waiting for file list / metadata... files detected: 0
-    File list ready with 1 file(s).
-    Torrent Name: some.show.s27e04.1080p.web.h264-successfulcrab[EZTVx.to].mkv
-    Torrent Hash: 2e31b658b225ea282e5c663b23cfbdc96102afdb
-    Download location:   /downloads/complete/Sonarr
-    Raw folder name: Sonarr
-    Inferred category: Sonarr
-    Filtering enabled for category: Sonarr
-    Raw file list:
-      0:   0% Normal   Yes 790.5 MB   some.show.s27e04.1080p.web.h264-successfulcrab[EZTVx.to].mkv
-    Checking file index=0 name='some.show.s27e04.1080p.web.h264-successfulcrab[eztvx.to].mkv'
-     -> Valid media/subtitle file: some.show.s27e04.1080p.web.h264-successfulcrab[eztvx.to].mkv
-    Result: Torrent 'some.show.s27e04.1080p.web.h264-successfulcrab[EZTVx.to].mkv' accepted. Valid files found: 1
-    [2025-09-05 15:59:59] --- Torrent Filter Script Finished ---
+    Torrent ID 15: >  -> Sent to Sonarr blocklist (queue id 665030521)
+    [2025-10-12 00:43:10] --- Torrent Filter Script Finished (Torrent ID: 15) ---
 
+    [2025-10-12 00:56:58] --- Torrent Filter Script Triggered ---
+    Torrent ID 18: > Locked for processing.
+    Torrent ID 18: > Waiting for file list / metadata to become available...
+    Torrent ID 18: > File list ready with 1 file(s).
+    Torrent ID 18: > Torrent Name: Another.Show.S03E04.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv
+    Torrent ID 18: > Torrent Hash: 6447f9b2e9b9e56a2735e073e40e0758a218f582
+    Torrent ID 18: > Download location:   /downloads/complete/Sonarr
+    Torrent ID 18: > Raw folder name: Sonarr
+    Torrent ID 18: > Inferred category: Sonarr
+    Torrent ID 18: > Filtering enabled for category: Sonarr
+    Torrent ID 18: > Raw file list:
+      0:   0% Normal   Yes 368.9 MB   Another.Show.S03E04.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv
+    Torrent ID 18: > Checking file index=0 name='another.show.s03e04.1080p.hevc.x265-megusta[eztvx.to].mkv'
+    Torrent ID 18: >  -> Valid media/subtitle file: another.show.s03e04.1080p.hevc.x265-megusta[eztvx.to].mkv
+    Torrent ID 18: > Result: Torrent 'Another.Show.S03E04.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv' accepted. Valid files found: 1
+    [2025-10-12 00:57:02] --- Torrent Filter Script Finished (Torrent ID: 18) ---
 
 ## 🚀 Roadmap
 - TBD
