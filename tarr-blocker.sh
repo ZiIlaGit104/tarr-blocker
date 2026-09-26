@@ -38,7 +38,7 @@ READARR_API="xxxx"
 	VIDEO_EXTENSIONS="mkv|mp4|avi|mov"
 	SUBTITLE_EXTENSIONS="srt|ass|sub"
 	AUDIO_EXTENSIONS="mp3|flac|aac|ogg|m4a|wav"
-	BOOK_EXTENSIONS="epub|pdf|mobi|azw3|cbz|cbr|mp3|flac|aac|ogg|m4a|wav"
+	BOOK_EXTENSIONS="epub|pdf|mobi|azw3|cbz|cbr|mp3|flac|aac|ogg|m4a|wav|m4b"
 
 ###############
 #END Variables#
